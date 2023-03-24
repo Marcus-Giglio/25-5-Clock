@@ -1,0 +1,32 @@
+body {
+  background: #1e555c;
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.wrapper {
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  flex-direction: column;
+  /* variable  */
+  justify-content: space-evenly;
+}
+.main-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.timer {
+  border: 7px solid #13353a;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  height: 175px;
+  border-radius: 50px;
+}
+#time-left {
+  font-family: digital;
+  font-size: 80px;
+  line-height: 1;
+}
+.arrow-button {
+  user-select: none;
+}
